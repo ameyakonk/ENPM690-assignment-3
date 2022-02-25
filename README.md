@@ -32,7 +32,7 @@ cd ../..
 cd ..
 ```
 
-Q1. To Run the code:
+#### Q1. To Run Teleoperation code:
 ```
 roslaunch ENPM690-assignment-3 teleop_.launch
 To Move the turtlebot3, following are the keys
@@ -44,7 +44,7 @@ p - Quit process
 Ctrl+C to quit program
 ```
 
-Q1. To Run the code:
+#### Q2. To Run Obstacle Avoidance code:
 ```
 roslaunch ENPM690-assignment-3 autonomous_.launch
 Ctrl+C to quit program
