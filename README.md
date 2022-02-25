@@ -35,14 +35,15 @@ cd ..
 #### Q1. To Run Teleoperation code:
 ```
 roslaunch ENPM690-assignment-3 teleop_.launch
-To Move the turtlebot3, following are the keys
-w - Forward
-x - Backward
-a - Left
-d - Right
-p - Quit process
-Ctrl+C to quit program
 ```
+To Move the turtlebot3, following are the keys
+1. w - Forward
+2. x - Backward
+3. a - Left
+4. d - Right
+5. p - Quit process
+Ctrl+C to quit program
+
 
 #### Q2. To Run Obstacle Avoidance code:
 ```
