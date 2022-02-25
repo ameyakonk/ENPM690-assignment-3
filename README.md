@@ -41,7 +41,7 @@ To Move the turtlebot3, following are the keys
 2. x - Backward
 3. a - Left
 4. d - Right
-5. p - Quit process
+5. p - Quit Teleop node
 
 Ctrl+C to quit program
 
