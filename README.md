@@ -42,11 +42,12 @@ To Move the turtlebot3, following are the keys
 3. a - Left
 4. d - Right
 5. p - Quit process
+
 Ctrl+C to quit program
 
 
 #### Q2. To Run Obstacle Avoidance code:
 ```
 roslaunch ENPM690-assignment-3 autonomous_.launch
-Ctrl+C to quit program
 ```
+Ctrl+C to quit program
