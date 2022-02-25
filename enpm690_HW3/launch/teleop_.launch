@@ -1,0 +1,15 @@
+<launch>
+	<arg 
+    	name="rosbagRecord" 
+    	default = "false"
+	/>
+	<include
+		file = "$(find turtlebot3_gazebo)launch/turtlebot3_world.launch"
+	/>
+	<node 
+	    pkg = "enpm690_HW3" 
+	    type = "teleop.py"
+	    name = "teleop"
+	    output = "screen"
+	 />
+</launch>

@@ -1,0 +1,18 @@
+<launch>
+	<arg 
+    	name="rosbagRecord" 
+    	default = "false"
+	/>
+	<include
+		file = "$(find turtlebot3_gazebo)launch/turtlebot3_world.launch"
+        />
+        <include
+		file = "$(find turtlebot3_gazebo)launch/turtlebot3_gazebo_rviz.launch"
+        />
+	<node 
+	    pkg = "enpm690_HW3" 
+	    type = "autonomous.py"
+	    name = "autonomous"
+	    output = "screen"
+	 />
+</launch>
